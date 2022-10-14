@@ -3,15 +3,15 @@ var router = express.Router();
 
 /* GET home page. */
 const anaSayfa = function (req, res, next) {
-  res.render('anaSayfa', { title: 'Ana Sayfa' });
+  res.render('anasayfa', { title: 'Ana Sayfa' });
 };
 
 const mekanBilgisi = function (req, res, next) {
-  res.render('mekanBilgisi', { title: 'Mekan Bilgisi' });
+  res.render('mekanbilgisi', { title: 'Mekan Bilgisi' });
 };
 
 const yorumEkle = function (req, res, next) {
-  res.render('yorumEkle', { title: 'Yoryn ekle  ' });
+  res.render('yorumEkle', { title: 'Yorum ekle  ' });
 };
 
 
